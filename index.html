@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <!-- Link to an external CSS stylesheet (optional) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is a paragraph of text explaining the purpose of the website. HTML provides the structural foundation for web pages.</p>
+            <p>You can use <strong>bold text</strong> or <em>italicized text</em> to add emphasis to your words.</p>
+        </section>
+
+        <!-- Services Section with a Table -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Design</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>SEO Optimization</td>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section with a Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="userName" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="userEmail" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="userMessage" rows="4"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Sample Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to an external JavaScript file (optional) -->
+    <script src="script.js"></script>
+</body>
+</html>
+
