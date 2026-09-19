@@ -1,3 +1,4 @@
+success
 class GFG {
     // Gcd of x and y using recursive function
     static int GCD(int x, int y)
